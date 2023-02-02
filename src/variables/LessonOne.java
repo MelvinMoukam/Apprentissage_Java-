@@ -3,8 +3,7 @@ package variables;
 public class LessonOne {
 
 	public static void main(String[] args) {
-		int thisYear = 2019; 
-		String birthdayMonth ="june"; 
+		
 		int firstDay =3 ; 
 		
 		//TODO Etape 1 : créez une variable daysInWeek avec une valeur de 7
@@ -21,6 +20,8 @@ public class LessonOne {
 	
 		  // Affiche le résultat 
         System.out.println("There are " + daysInWeek + "days in a week.\nYour starting day in the month is: " + STARTINGDAY);
-	}
+    	Portéevar.PrintText();
+}
+
 
 }
