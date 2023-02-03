@@ -24,6 +24,12 @@ public class LessonOne {
     	for(int i=1 ; i<=5; i++) {
     	Portéevar.PrintText("mes fans");
         }
+    	
+    
+		for(int i=0; i<Portéevar.myArray.length; i++) {
+			Portéevar.Tableau(i);
+    	}
+    	
 }
 
 
