@@ -2,10 +2,10 @@ package variables;
 
 public class Portéevar {
 
-	public static String text ="Hello Openclassrooom"; 
 	
-	static void PrintText() {
+	
+	static void PrintText(String text) {
 		
-		System.out.println(text);
+		System.out.println("Hello " + text + "!!");
 	}
 }

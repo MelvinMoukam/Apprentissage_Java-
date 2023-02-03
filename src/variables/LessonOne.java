@@ -20,7 +20,10 @@ public class LessonOne {
 	
 		  // Affiche le résultat 
         System.out.println("There are " + daysInWeek + "days in a week.\nYour starting day in the month is: " + STARTINGDAY);
-    	Portéevar.PrintText();
+       
+    	for(int i=1 ; i<=5; i++) {
+    	Portéevar.PrintText("mes fans");
+        }
 }
 
 
