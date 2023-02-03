@@ -26,8 +26,8 @@ public class LessonOne {
         }
     	
     
-		for(int i=0; i<Portéevar.myArray.length; i++) {
-			Portéevar.Tableau(i);
+		for(int i: Portéevar.myArray) {
+			System.out.println(i);
     	}
     	
 }
