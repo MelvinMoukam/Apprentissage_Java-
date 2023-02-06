@@ -12,13 +12,20 @@ public class Portéevar {
 	
 	
 
-	 static int[] myArray= new int[] {7,2,3,4};
+	 static int[] myArray=  {7,2,3,4,5,6};
 		
 	 static void Tableau(int i) {
 		System.out.println(myArray[i]);
 	}
+	 
 
-	
+	/** affiche le message hello au destinataire fourni
+	* @param recipient
+	*/
+
+	   static void sayHelloTo(String recipient) {
+	       System.out.println("Hello " + recipient + "!");
+	    }
 
 	
 	
